@@ -1,84 +1,53 @@
-# Turborepo starter
+# 🧠 AI-Powered Interview Prep Platform
 
-This Turborepo starter is maintained by the Turborepo core team.
+A full-stack, production-grade platform that simulates technical interviews using AI and real-time code execution. Built with a scalable monorepo architecture, it offers personalized feedback, intelligent question generation, and structured progress tracking — ideal for aspiring software developers targeting FAANG-level roles.
 
-## Using this example
+---
 
-Run the following command:
+## 🚀 Tech Stack
 
-```sh
-npx create-turbo@latest
-```
+### 📦 Monorepo
+- **Turborepo** – High-performance monorepo management
 
-## What's inside?
+### 🌐 Frontend
+- **Next.js (App Router)**
+- **Tailwind CSS**
+- **TypeScript**
 
-This Turborepo includes the following packages/apps:
+### 🧠 AI + Code Engine
+- **OpenAI API (GPT-4)** – Question generation, feedback, evaluation
+- **Judge0 API** – Code execution for C++, Python, JavaScript
 
-### Apps and Packages
+### 🔐 Authentication
+- **NextAuth.js** – Google/GitHub OAuth and credential-based login
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+---
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+## ✨ Features
 
-### Utilities
+- 🎙️ **AI Interview Simulation** — Domain-based questions (DSA, System Design, HR)
+- 🧑‍💻 **Live Code Editor** — Supports multiple languages with execution via Judge0
+- 💬 **Instant Feedback** — Evaluate responses based on correctness, clarity, depth
+- 📊 **Performance Analytics** — Track your progress and growth
+- 💾 **Session History** — Save and review past interviews
 
-This Turborepo has some additional tools already setup for you:
+---
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+## 🗂️ Project Structure
 
-### Build
+ai-interview-platform/
+├── apps/
+│ └── web/ # Frontend (Next.js)
+├── packages/
+│ ├── ui/ # Shared UI components
+│ └── config/ # ESLint, Tailwind, TS config
+└── .env # Environment variables
 
-To build all apps and packages, run the following command:
+---
 
-```
-cd my-turborepo
-pnpm build
-```
+## ⚙️ Getting Started
 
-### Develop
+### 1. Clone the repo
 
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm dev
-```
-
-### Remote Caching
-
-> [!TIP]
-> Vercel Remote Cache is free for all plans. Get started today at [vercel.com](https://vercel.com/signup?/signup?utm_source=remote-cache-sdk&utm_campaign=free_remote_cache).
-
-Turborepo can use a technique known as [Remote Caching](https://turborepo.com/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup?utm_source=turborepo-examples), then enter the following commands:
-
-```
-cd my-turborepo
-npx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-```
-npx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turborepo.com/docs/crafting-your-repository/running-tasks)
-- [Caching](https://turborepo.com/docs/crafting-your-repository/caching)
-- [Remote Caching](https://turborepo.com/docs/core-concepts/remote-caching)
-- [Filtering](https://turborepo.com/docs/crafting-your-repository/running-tasks#using-filters)
-- [Configuration Options](https://turborepo.com/docs/reference/configuration)
-- [CLI Usage](https://turborepo.com/docs/reference/command-line-reference)
+git clone https://github.com/ArindamBiswas10/ai-interview-platform.git
+cd ai-interview-platform
