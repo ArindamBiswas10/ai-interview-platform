@@ -17,6 +17,21 @@ const features = [
   },
 ];
 
+const steps = [
+  {
+    title: "1. Select Skill & Role",
+    desc: "Choose your preferred domain like Frontend, Backend, or DSA, and let us tailor your session.",
+  },
+  {
+    title: "2. Start Mock Interview",
+    desc: "Get a real-time interview experience powered by GPT and an interactive code editor.",
+  },
+  {
+    title: "3. Review & Improve",
+    desc: "Receive instant feedback, learn from mistakes, and track your performance over time.",
+  },
+];
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-900 px-6 py-20 space-y-24">
@@ -47,6 +62,22 @@ export default function Home() {
             <p className="text-gray-600">{f.desc}</p>
           </div>
         ))}
+      </section>
+
+      {/* How It Works Section */}
+      <section className="max-w-5xl mx-auto text-center space-y-12">
+        <h2 className="text-4xl font-bold">How It Works</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-10">
+          {steps.map((step, i) => (
+            <div
+              key={i}
+              className="p-6 border rounded-xl shadow-sm hover:shadow-md transition"
+            >
+              <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
+              <p className="text-gray-600">{step.desc}</p>
+            </div>
+          ))}
+        </div>
       </section>
     </main>
   );
