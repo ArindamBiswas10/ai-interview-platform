@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const features = [
   {
     title: "AI-Powered Questions",
@@ -50,6 +52,13 @@ export default function Home() {
           Start Practicing
         </a>
       </div>
+
+
+      <div className="mt-6">
+          <Link href="/dashboard" className="text-blue-600 underline">
+            Go to Dashboard
+          </Link>
+        </div>
 
       {/* Features Section */}
       <section className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8">
