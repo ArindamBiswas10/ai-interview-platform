@@ -4,39 +4,70 @@ An AI-powered platform to help you ace tech interviews through GPT-generated que
 
 [![Next.js](https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?logo=openai&logoColor=white)](https://platform.openai.com/)
 [![NextAuth](https://img.shields.io/badge/Auth-NextAuth.js-black?logo=nextdotjs)](https://next-auth.js.org/)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+---
+
+## 🎯 Overview
+
+This platform combines the power of **Next.js**, **OpenAI**, and **NextAuth** to create a seamless interview prep experience. Users can log in, generate interview questions, and (coming soon) solve problems in a live editor with AI-based feedback.
+
+---
+
+## 📸 Screenshots
+
+> Add your screenshots here using:
+> ```markdown
+> ![Homepage](./public/screenshots/home.png)
+> ![Interview Question UI](./public/screenshots/question-ui.png)
+> ```
+
+---
+
+## 🔗 Live Demo
+
+**🌍 Deployed on Vercel:**  
+[https://ai-interview-platform.vercel.app](https://ai-interview-platform.vercel.app)
+
+**🎥 Demo Walkthrough (YouTube/loom):**  
+[Watch here](https://your-video-link.com)
 
 ---
 
 ## 🚀 Features
 
-- ✅ **Google Authentication** (via `next-auth`)
-- 🧠 **AI-Generated Interview Questions** using OpenAI
-- ⌨️ **Live Coding Environment** (coming soon)
-- 💬 **AI Feedback** on submitted code (coming soon)
-- 📊 **Session History & Progress Tracking** (planned)
-- 💻 Built with **Next.js App Router**, **TypeScript**, and **TailwindCSS**
+- 🔐 Google OAuth Login via `NextAuth.js`
+- 💡 AI-powered Interview Question Generation (OpenAI)
+- 💬 (Planned) Smart AI Feedback on User Code
+- ⌨️ (Planned) Integrated Live Coding Editor (Monaco/CodeMirror)
+- 📈 (Planned) Session History & Progress Analytics
+- 🧑‍🎓 User-friendly UI built with TailwindCSS + App Router
 
 ---
 
-## 📦 Tech Stack
+## 🧱 Tech Stack
 
-- **Frontend:** Next.js 14, TypeScript, TailwindCSS  
-- **Authentication:** `next-auth` with Google OAuth  
-- **AI:** OpenAI API  
-- **State Management:** React hooks  
-- **Future Enhancements:** MongoDB, Prisma, Judge0 API
+| Layer           | Technology                           |
+| --------------- | ------------------------------------ |
+| Frontend        | Next.js 14, TypeScript, Tailwind CSS |
+| Authentication  | NextAuth.js with Google OAuth        |
+| AI Integration  | OpenAI GPT API                       |
+| State Management| React Hooks                          |
+| Planned Backend | MongoDB, Prisma, Judge0 API          |
 
 ---
 
 ## 🛠️ Getting Started
 
+### 1. Clone the Repository
+
 ```bash
-# 1. Clone the Repository
-git clone https://github.com/your-username/ai-interview-platform.git
+git clone https://github.com/arindambiswas/ai-interview-platform.git
 cd ai-interview-platform
+
 
 # 2. Install Dependencies
 npm install
