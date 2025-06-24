@@ -17,15 +17,6 @@ This platform combines the power of **Next.js**, **OpenAI**, and **NextAuth** to
 
 ---
 
-## 📸 Screenshots
-
-> Add your screenshots here using:
-> ```markdown
-> ![Homepage](./public/screenshots/home.png)
-> ![Interview Question UI](./public/screenshots/question-ui.png)
-> ```
-
----
 
 ## 🔗 Live Demo
 
