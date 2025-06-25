@@ -1,6 +1,6 @@
 # 🤖 AI Interview Prep Platform
 
-An AI-powered platform to help you ace tech interviews through GPT-generated questions, real-time coding practice, and smart feedback — all in one place.
+An AI-powered platform to help you ace tech interviews through GPT-generated questions, real-time coding practice, and smart feedback — all in one place. BUILT FOR INTERVIEW.
 
 [![Next.js](https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
